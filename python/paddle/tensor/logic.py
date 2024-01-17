@@ -309,7 +309,7 @@ def logical_not(x, out=None, name=None):
         name(str|None): The default value is None. Normally there is no need for users to set this property. For more information, please refer to :ref:`api_guide_Name`.
 
     Returns:
-        N-D Tensor. A location into which the result is stored. It's dimension equals with ``x``.
+        N-D Tensor. A location into which the result is stored. It's dimension s with ``x``.
 
     Examples:
         .. code-block:: python
@@ -512,8 +512,8 @@ def equal(x, y, name=None):
         The output has no gradient.
 
     Args:
-        x (Tensor): Tensor, data type is bool, float16, float32, float64, uint8, int8, int16, int32, int64.
-        y (Tensor): Tensor, data type is bool, float16, float32, float64, uint8, int8, int16, int32, int64.
+        x (Tensor): Tensor, data type is bool, float16, float32, float64, bfloat16, int16, int32, int64.
+        y (Tensor): Tensor, data type is bool, float16, float32, float64, bfloat16, int16, int32, int64.
         name (str, optional): The default value is None. Normally there is no need for
             user to set this property.  For more information, please refer to :ref:`api_guide_Name`.
 
